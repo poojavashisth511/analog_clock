@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    background: linear-gradient(to right, rgb(245, 8, 8), white);
+}
+#timer{
+    height: 50px;
+    width: 230px;
+    border: 1px solid black;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 3px rgb(68, 66, 66);
+}
+#buttons{
+    margin-top: 10px;
+}
+.Btn{
+   font-size: 15px;
+   padding: 10px 17px;
+   color: white;
+   background: none;
+   border: none;
+   font-weight: 600;
+   background-color:var(--clr);
+   cursor: pointer;
+   border-radius: 5px;
+}
